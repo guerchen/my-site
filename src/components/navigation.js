@@ -11,20 +11,20 @@ import {
 function NavigationBar() {
     return (
         <div className='TopBar'>
-            <Link to="/">
-            <button className='Buttons'>
-                Página inicial
-            </button>
+            <Link to="/about">
+                <button className='Buttons'>
+                    About me
+                </button>
             </Link>
-            <Link to='/about'>
-            <button className='Buttons'>
-                Sobre
-            </button>
+            <Link to='/career'>
+                <button className='Buttons'>
+                    Career
+                </button>
             </Link>
-            <Link to='/contact'>
-            <button className='Buttons'>
-                Contato
-            </button>
+            <Link to='/projects'>
+                <button className='Buttons'>
+                    Projects
+                </button>
             </Link>
         </div>
     );

@@ -1,32 +1,23 @@
 .TopBar {
     width: auto;
     height: 100px;
-    background-color: orange;
+    background-color: #0047AB;
     align-items: flex-start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Buttons {
-    background-color: orange;
+    background-color: #0047AB;
+    color: white;
     width: 200px;
     height: 100%;
     font-weight: bolder;
-    font-size: large;
+    font-size: x-large;
     border-width: 0px;
     font-family: 'helvetica';
 }
 
 .Buttons:hover {
-    background-color: black;
-    color: orange;
-    width: 200px;
-    height: 100%;
-    font-weight: bolder;
-    font-size: large;
-    border-width: 0px;
-    font-family: 'helvetica';
-}
-
-.Logo {
-    height: 100%;
-    float: left;
+    text-decoration: underline;
+    font-size: x-large;
 }

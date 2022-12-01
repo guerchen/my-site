@@ -1,8 +1,8 @@
 import React from 'react';
 import NavigationBar from './components/navigation';
 import { About } from './pages/about';
-import { Contact } from './pages/contact';
-import { Home } from './pages/home';
+import { Career } from './pages/career';
+import { Projects } from './pages/projects';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -20,9 +20,9 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
 
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/career" element={<Career />} />
 
-          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
     </div>
