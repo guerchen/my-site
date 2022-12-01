@@ -1,0 +1,32 @@
+.content{
+    margin-top: 50px;
+    height: 500px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.Form{
+    border-width: 2px;
+    border-color: orange;
+}
+
+.Buttons {
+    background-color: orange;
+    width: 200px;
+    height: 100%;
+    font-weight: bolder;
+    font-size: large;
+    border-width: 0px;
+    font-family: 'helvetica';
+}
+
+.Buttons:hover {
+    background-color: black;
+    color: orange;
+    width: 200px;
+    height: 100%;
+    font-weight: bolder;
+    font-size: large;
+    border-width: 0px;
+    font-family: 'helvetica';
+}

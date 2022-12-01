@@ -1,0 +1,32 @@
+.TopBar {
+    width: auto;
+    height: 100px;
+    background-color: orange;
+    align-items: flex-start;
+}
+
+.Buttons {
+    background-color: orange;
+    width: 200px;
+    height: 100%;
+    font-weight: bolder;
+    font-size: large;
+    border-width: 0px;
+    font-family: 'helvetica';
+}
+
+.Buttons:hover {
+    background-color: black;
+    color: orange;
+    width: 200px;
+    height: 100%;
+    font-weight: bolder;
+    font-size: large;
+    border-width: 0px;
+    font-family: 'helvetica';
+}
+
+.Logo {
+    height: 100%;
+    float: left;
+}
