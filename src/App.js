@@ -3,6 +3,7 @@ import NavigationBar from './components/navigation';
 import { About } from './pages/about';
 import { Career } from './pages/career';
 import { Projects } from './pages/projects';
+import { NotFound } from './pages/notfound';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -18,11 +19,13 @@ function App() {
           <NavigationBar/>
         </header>
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
 
           <Route path="/career" element={<Career />} />
 
           <Route path="/projects" element={<Projects />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>

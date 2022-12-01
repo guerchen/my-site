@@ -1,7 +1,7 @@
 .Gray-card{
     background-color: #E5E4E2;
     height: 500px;
-    width: 900px;
+    width: 60%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     display: flex;
@@ -13,10 +13,12 @@
 
 .Text-card {
     background-color: #f0f0f0;
-    height: 450px;
-    width: 400px;
+    height: 90%;
+    width: 40%;
     float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px 50px;
+    padding-top: 20px;
 }
 
 .Picture-frame{
@@ -36,6 +38,17 @@
     margin: auto;
 }
 
-h1 {
+.MyName {
     font-weight: bolder;
+    font-family: 'helvetica';
+}
+
+.ShortDescr {
+    float: left;
+    text-align: left;
+}
+
+p {
+    font-family: 'helvetica';
+    font-size: large;
 }
