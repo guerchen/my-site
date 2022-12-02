@@ -13,7 +13,7 @@ function NavigationBar() {
         <div className='TopBar'>
             <Link to="/">
                 <button className='Buttons'>
-                    About me
+                    Home
                 </button>
             </Link>
             <Link to='/career'>
@@ -24,6 +24,11 @@ function NavigationBar() {
             <Link to='/projects'>
                 <button className='Buttons'>
                     Projects
+                </button>
+            </Link>
+            <Link to='/blog'>
+                <button className='Buttons'>
+                    Blog
                 </button>
             </Link>
         </div>

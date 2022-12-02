@@ -4,6 +4,7 @@ import { About } from './pages/about';
 import { Career } from './pages/career';
 import { Projects } from './pages/projects';
 import { NotFound } from './pages/notfound';
+import { Blog } from './pages/blog'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -24,6 +25,8 @@ function App() {
           <Route path="/career" element={<Career />} />
 
           <Route path="/projects" element={<Projects />} />
+
+          <Route path="/blog" element={<Blog />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

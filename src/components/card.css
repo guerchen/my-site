@@ -1,35 +1,44 @@
 .Gray-card{
     background-color: #E5E4E2;
-    height: 500px;
-    width: 60%;
+    height: 80%;
+    width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    justify-content: space-between;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 .Text-card {
     background-color: #f0f0f0;
-    height: 90%;
-    width: 40%;
+    height: auto;
+    max-width: 300px;
+    width: auto;
     float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 0px 50px;
-    padding-top: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    margin-left: 30px;
 }
 
 .Picture-frame{
     background-color: white;
-    height: 217px;
-    width: 350px;
-    padding: 25px;
+    max-height: 267px;
+    max-width: 350px;
+    padding: 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
     display: flex;
     float: left;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .Image{

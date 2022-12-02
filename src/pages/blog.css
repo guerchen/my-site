@@ -1,0 +1,14 @@
+.blog-gray-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #E5E4E2;
+    height: 80%;
+    max-width: 60%;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 20px 20px;
+}

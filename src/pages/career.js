@@ -5,7 +5,9 @@ function Career() {
 
     return (
         <div className='content'>
-            Hi!
+            <div className='career-card'>
+                My career so far
+            </div>
         </div>
     );
   }
