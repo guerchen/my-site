@@ -1,6 +1,7 @@
 .Gray-card{
     background-color: #E5E4E2;
     height: 80%;
+    max-width: 923px;
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
@@ -10,21 +11,17 @@
     justify-content: space-around;
     flex-wrap: wrap;
     overflow: auto;
-    margin-left: 18%;
-    margin-right: 18%;
 }
 
 .Text-card {
     background-color: #f0f0f0;
     height: auto;
-    max-width: 300px;
+    max-width: 350px;
     width: auto;
     float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 3%;
-    margin-left: 30px;
+    padding: 3% 4%;
+    margin: 0px 30px;
 }
 
 .Picture-frame{

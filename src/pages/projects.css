@@ -5,6 +5,7 @@
 .projects-card {
     background-color: #E5E4E2;
     height: 80%;
+    max-width: 923px;
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
@@ -14,6 +15,4 @@
     justify-content: space-around;
     flex-wrap: wrap;
     overflow: auto;
-    margin-left: 18%;
-    margin-right: 18%;
 }

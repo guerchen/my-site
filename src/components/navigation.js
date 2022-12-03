@@ -11,7 +11,7 @@ import {
 function NavigationBar() {
     return (
         <div className='TopBar'>
-            <Link to="/">
+            <Link to="/" >
                 <button className='Buttons'>
                     Home
                 </button>
