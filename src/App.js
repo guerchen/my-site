@@ -15,7 +15,7 @@ import {
 function App() {
   return (
     <div  className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <header  className="App-header">
           <NavigationBar/>
         </header>
