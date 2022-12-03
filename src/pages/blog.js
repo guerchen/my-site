@@ -1,6 +1,7 @@
 import React from 'react';
 import './blog.css';
 import {Post} from '../components/blog_post'
+import { Footer } from '../components/footer'
 
 function Blog() {
     return (
@@ -11,6 +12,7 @@ function Blog() {
                 this little blog without having to deploy. Of course it would just be easier to use twitter,
                 but I sure wouldn't learn as much." />
             </div>
+            <Footer />
         </div>
     );
   }

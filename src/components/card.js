@@ -6,10 +6,10 @@ function Card() {
     return (
         <div className='Gray-card'>
             <div className='Picture-frame'>
-                <img src={mypic} className='Image'/>
+                <img src={mypic} className='Image' alt='my-pic'/>
             </div>
             <div className='Text-card'>
-            <h1 className='MyName'> Ariel Guerchenzon </h1>
+            <h1 className='MyName'>Ariel Guerchenzon</h1>
                 <div className='ShortDescr'>
                     <p> Hello dear visitor! </p>
                     <p> I'm a Mechanical Engineer which works with software and lives in São Paulo. </p>

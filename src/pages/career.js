@@ -1,5 +1,6 @@
 import React from 'react';
 import './career.css';
+import { Footer } from '../components/footer'
 
 function Career() {
 
@@ -40,7 +41,7 @@ function Career() {
                         using Solidworks, test and collect data on electrical motors, and design jigs and devices 
                         for measurement and calibration of different parts of the robots. The devices I designed 
                         were manufactured and are being used by the company.</p>
-                    </div><br />
+                    </div>
                 </div>
                 <div className='education-text-card'>
                     <h2 className='section-title'>Education</h2>
@@ -69,6 +70,7 @@ function Career() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
   }

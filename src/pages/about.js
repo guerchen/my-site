@@ -7,6 +7,9 @@ function About() {
     return (
         <div className='content'>
             <Card />
+            <footer>
+            <Footer />
+            </footer>
         </div>
     );
   }
