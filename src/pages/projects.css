@@ -6,9 +6,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     display: flex;
-    align-items: center;
     padding: 30px;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
     overflow: auto;
+    gap: 30px;
 }
