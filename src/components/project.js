@@ -14,7 +14,7 @@ class Project extends React.Component {
             <div className='content-div'>
                 <p className='post-content'>{this.props.description}</p>
             </div>
-            <a href={this.props.link} target="_blank" rel="noopener noreferrer">Further info</a>
+            <a href={this.props.link} target="_blank" rel="noopener noreferrer" className='furtherinfo'>Further info</a>
         </div>)
     }
 

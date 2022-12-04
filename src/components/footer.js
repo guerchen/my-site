@@ -19,7 +19,7 @@ function Footer() {
             <a href='https://github.com/guerchen/my-site' target="_blank" rel="noopener noreferrer">
                 <p className='Source'>Source</p>
             </a>
-            <p className='LastUpdt'>Last updated: 2022-12-03</p>
+            <p className='LastUpdt'>Last updated: 2022-12-04</p>
         </div>
     );
   }

@@ -8,3 +8,9 @@
     padding: 3% 4%;
     display: block;
 }
+
+.furtherinfo {
+    color: black;
+    position: fixed;
+    bottom: 0;
+}
