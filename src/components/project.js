@@ -10,7 +10,7 @@ class Project extends React.Component {
         <div className='project-box'>
             <div className='title-div'>
                 <h3 className='post-title'>{this.props.name}</h3>
-            </div>
+            </div><br/>
             <div className='content-div'>
                 <p className='post-content'>{this.props.description}</p>
             </div>
