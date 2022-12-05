@@ -1,6 +1,6 @@
 .TopBar {
     width: auto;
-    height: -webkit-fill-available;
+    width: -webkit-fill-available;
     height: 100px;
     background-color: #0047AB;
     align-items: center;
