@@ -14,10 +14,10 @@ function Career() {
                             <a href='https://www.idwall.co' className='link' target="_blank" rel="noopener noreferrer">idwall</a> - Solutions Consultant
                         </h3>
                     </div>
-                    <div>
+                    <div className='place-date'>
+                        <p className='career-locale'>São Paulo, Brazil</p>
                         <p className='post-date'>2021-04 / Present</p>
                     </div>
-                    <br />
                     <div className='content-div'>
                         <p className='post-content'>
                         Responsabilities include leading meetings with technical and non-technical customers, 
@@ -26,16 +26,15 @@ function Career() {
                         making analytical studies, using techniques such as clustering, and deployment of cloud functions are frequent. </p>
                     </div>
                     <hr />
-                    <br />
                     <div className='title-div'>
                         <h3 className='post-title'>
                             <a href='https://www.getfabric.com' className='link' target="_blank" rel="noopener noreferrer">Fabric</a> - R&D Mechanical Engineer Intern
                         </h3>
                     </div>
-                    <div>
+                    <div className='place-date'>
+                        <p className='career-locale'>Tel Aviv, Israel</p>
                         <p className='post-date'>2020-06 / 2020-07</p>
                     </div>
-                    <br />
                     <div className='content-div'>
                         <p className='post-content'>Had to digitally model parts for the robots 
                         using Solidworks, test and collect data on electrical motors, and design jigs and devices 
@@ -48,7 +47,8 @@ function Career() {
                     <div className='title-div'>
                         <h3 className='post-title'>Universidade de São Paulo</h3>
                     </div>
-                    <div>
+                    <div className='place-date'>
+                        <p className='career-locale'>São Paulo, Brazil</p>
                         <p className='post-date'>2017-03 / 2022-09</p>
                     </div>
                     <br />
@@ -61,7 +61,8 @@ function Career() {
                     <div className='title-div'>
                         <h3 className='post-title'>Tel Aviv University</h3>
                     </div>
-                    <div>
+                    <div className='place-date'>
+                        <p className='career-locale'>Tel Aviv, Israel</p>
                         <p className='post-date'>2020-01 / 2020-07</p>
                     </div>
                     <br />
