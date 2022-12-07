@@ -5,25 +5,17 @@ import { Link } from "react-router-dom";
 function NavigationBar() {
     return (
         <div className='TopBar'>
-            <Link to="/" >
-                <button className='Buttons'>
-                    Home
-                </button>
+            <Link to="/" className='Buttons'>
+                Home
             </Link>
-            <Link to='/career'>
-                <button className='Buttons'>
-                    Career
-                </button>
+            <Link to='/career' className='Buttons'>
+                Career
             </Link>
-            <Link to='/projects'>
-                <button className='Buttons'>
-                    Projects
-                </button>
+            <Link to='/projects' className='Buttons'>
+                Projects
             </Link>
-            <Link to='/blog'>
-                <button className='Buttons'>
-                    Blog
-                </button>
+            <Link to='/blog' className='Buttons'>
+                Blog
             </Link>
         </div>
     );

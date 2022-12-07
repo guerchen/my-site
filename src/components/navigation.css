@@ -12,15 +12,15 @@
 .Buttons {
     background-color: #0047AB;
     color: white;
-    max-width: 13%;
     width: auto;
     height: 100%;
     font-weight: bolder;
     font-size: x-large;
     border-width: 0px;
     font-family: 'helvetica';
-    margin: auto;
-    float: left;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
 }
 
 .Buttons:hover {
