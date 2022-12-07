@@ -24,6 +24,12 @@ function Projects() {
                 learning purposes, mainly because I deal with REST APIs daily and wanted to get a better grip on their inner workings. I was able 
                 to deploy it for some time using Heroku's free dynos. It has been since shut down."
                 link='https://github.com/guerchen/ariels-first-api/tree/master' />
+                <Project name="Design of a fixed bed laboratory scale CLC reactor" description="Alongside my good friend Raphael
+                Claro and the great Prof. Sacomano as orientator, for a capstone project we designed Chemical Looping Combustion (CLC) rector, which is
+                capable of generating energy through combustion coupled with carbon capture. We had the delight of being selected by our school's
+                endowment fund to bring our design to reality. It was awesome getting to build something we designed ourselves
+                and we also grew a lot from our mistakes."
+                link='https://drive.google.com/file/d/1Hc4yPsMbNKENRTAB8fRl2Pj5izm5le4r/view?usp=sharing' />
             </div>
             <Footer />
         </div>
