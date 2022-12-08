@@ -13,7 +13,6 @@
     background-color: #0047AB;
     color: white;
     width: auto;
-    height: 100%;
     font-weight: bolder;
     font-size: x-large;
     border-width: 0px;
@@ -26,4 +25,16 @@
 .Buttons:hover {
     text-decoration: underline;
     font-size: x-large;
+}
+
+.SelectedButton{
+    background-color: #0047AB;
+    color: white;
+    width: auto;
+    font-weight: bolder;
+    font-size: x-large;
+    border-width: 0px;
+    font-family: 'helvetica';
+    align-items: center;
+    display: flex;
 }

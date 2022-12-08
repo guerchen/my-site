@@ -5,8 +5,7 @@ import github from '../images/github_logo.png'
 import kaggle from '../images/kaggle_logo.webp'
 
 function Footer() {
-    const current = new Date();
-    const today = current.toISOString().substring(0, 10);
+    const lastUpdated = '2022-12-07'
 
     return (
         <div className='Footer'>
@@ -22,7 +21,7 @@ function Footer() {
             <a href='https://github.com/guerchen/my-site' target="_blank" rel="noopener noreferrer">
                 <p className='Source'>Source</p>
             </a>
-            <p className='LastUpdt'>Last updated: {today}</p>
+            <p className='LastUpdt'>Last updated: {lastUpdated}</p>
         </div>
     );
   }

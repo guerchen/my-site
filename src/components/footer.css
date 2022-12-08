@@ -19,9 +19,11 @@
 .Source {
     color: black;
     margin: 0px 10px;
+    font-family: 'helvetica';
 }
 
 .LastUpdt {
-    font-size: medium;
+    font-size: small;
     margin: 0px 10px;
+    font-family: 'helvetica';
 }

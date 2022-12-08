@@ -10,3 +10,8 @@
   display: flex;
   flex-direction: column;
 }
+
+::selection {
+  background: #0047AB;
+  color: white;
+}

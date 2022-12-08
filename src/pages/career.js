@@ -17,7 +17,7 @@ function Career() {
                     <div className='place-date'>
                         <p className='career-locale'>São Paulo, Brazil</p>
                         <p className='post-date'>2021-04 / Present</p>
-                    </div>
+                    </div><br />
                     <div className='content-div'>
                         <p className='post-content'>
                         Responsabilities include leading meetings with technical and non-technical customers, 
@@ -34,7 +34,7 @@ function Career() {
                     <div className='place-date'>
                         <p className='career-locale'>Tel Aviv, Israel</p>
                         <p className='post-date'>2020-06 / 2020-07</p>
-                    </div>
+                    </div><br />
                     <div className='content-div'>
                         <p className='post-content'>Had to digitally model parts for the robots 
                         using Solidworks, test and collect data on electrical motors, and design jigs and devices 
