@@ -5,7 +5,7 @@ import github from '../images/github_logo.png'
 import kaggle from '../images/kaggle_logo.webp'
 
 function Footer() {
-    const lastUpdated = '2022-12-07'
+    const lastUpdated = '2022-12-08'
 
     return (
         <div className='Footer'>
