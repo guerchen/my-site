@@ -5,7 +5,7 @@ import github from '../images/github_logo.png'
 import kaggle from '../images/kaggle_logo.webp'
 
 function Footer() {
-    const lastUpdated = '2022-12-08'
+    const lastUpdated = '2022-12-10'
 
     return (
         <div className='Footer'>
@@ -18,7 +18,7 @@ function Footer() {
             <a href='https://www.kaggle.com/arielguerchenzon' target="_blank" rel="noopener noreferrer">
                 <img src={kaggle} className='miniature' alt='kaggle logo'/>
             </a>
-            <a href='https://github.com/guerchen/my-site' target="_blank" rel="noopener noreferrer">
+            <a href='https://github.com/guerchen/my-site/tree/projects-page' target="_blank" rel="noopener noreferrer">
                 <p className='Source'>Source</p>
             </a>
             <p className='LastUpdt'>Last updated: {lastUpdated}</p>

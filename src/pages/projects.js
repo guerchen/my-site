@@ -10,7 +10,7 @@ function Projects() {
                 <Project name='This very site' date='2022-12 / Present' description='My first personal website, made using React.js and deployed to github pages.
                 I Learned a lot about reusable React.js components, github pages deployment, and css styling. My previous experience with
                 Vue.js enabled me to pick up React.js very quickly, and I was able to build from the ground up and deploy within a week.'
-                link='https://github.com/guerchen/my-site' />
+                link='https://github.com/guerchen/my-site/tree/projects-page' />
                 <Project name='My own Facematch/Liveness' date='2022-09 / 2022-11' description='With the goal of better understanding the products offered by idwall,
                 I sought out to build my own version of Facematch with Liveness using a Kaggle selfies and IDs dataset and Tensorflow and Keras.
                 I learned a lot about image preprocessing, convolutional neural networks, TPUs, and more!'
