@@ -10,7 +10,7 @@
     padding: 30px;
     justify-content: space-around;
     flex-wrap: wrap;
-    overflow: auto;
+    gap: 30px;
 }
 
 .education-text-card {
