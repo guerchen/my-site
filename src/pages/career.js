@@ -7,7 +7,7 @@ function Career() {
     return (
         <div className='content'>
             <div className='career-card'>
-                <div className='work-text-card'> 
+                <div className='career-text-card'> 
                     <h2 className='section-title'>Work</h2>
 
                     <CareerEntry work={true} link='https://www.idwall.co' company='idwall' role='Solutions Consultant'
@@ -26,7 +26,7 @@ function Career() {
                     of the robots. The devices I designed were manufactured and are being used by the company.'/>
 
                 </div>
-                <div className='education-text-card'>
+                <div className='career-text-card'>
                     <h2 className='section-title'>Education</h2>
 
                     <CareerEntry work={false} company='Universidade de São Paulo'
@@ -39,6 +39,16 @@ function Career() {
                     <CareerEntry work={false} company='Tel Aviv University'
                     locale='Tel Aviv, Israel' period='2020-01 / 2020-07'
                     description='Entrepreneurship and Innovation spring semester study abroad.'/>
+
+                </div>
+
+                <div className='career-text-card'>
+                    <h2 className='section-title'>Courses</h2>
+
+                    <CareerEntry work={false} company='MIT OpenCourseWare'
+                    locale='online' period='2022-07 / 2022-09'
+                    description='MIT 6.0002 Introduction to Computational Thinking and Data Science, Fall 2016.
+                    Instructor Dr. John Guttag. Offered freely through Youtube.'/>
 
                 </div>
             </div>

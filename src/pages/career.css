@@ -1,6 +1,6 @@
 .career-card {
     background-color: #E5E4E2;
-    height: 80%;
+    height: auto;
     max-width: 923px;
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -13,19 +13,7 @@
     gap: 30px;
 }
 
-.education-text-card {
-    background-color: #f0f0f0;
-    height: auto;
-    max-width: 350px;
-    width: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 2% 4%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 7px;
-}
-
-.work-text-card {
+.career-text-card {
     background-color: #f0f0f0;
     height: auto;
     max-width: 350px;
