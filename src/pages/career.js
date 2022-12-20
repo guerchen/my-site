@@ -13,9 +13,9 @@ function Career() {
                     <CareerEntry work={true} link='https://www.idwall.co' company='idwall' role='Solutions Consultant'
                     locale='São Paulo, Brazil' period='2021-04 / Present'
                     description='Responsabilities include leading meetings with technical and non-technical customers, 
-                    setting up product to address their needs, orchestrating proofs of concepts, and guiding the customer 
-                    through API and SDK integrations. SQL and Postman are used daily. Also, creation of internal tools, 
-                    making analytical studies, using techniques such as clustering, and deployment of cloud functions are frequent.'/>
+                    orchestrating proofs of concepts, and guiding the customer through API and SDK integrations. SQL
+                    and Postman are used daily. Also, creation of internal tools, making analytical studies, using
+                    techniques such as clustering, and deployment of cloud functions are frequent.'/>
 
                     <hr />
 
@@ -43,12 +43,20 @@ function Career() {
                 </div>
 
                 <div className='career-text-card'>
-                    <h2 className='section-title'>Courses</h2>
+                    <h2 className='section-title'>Courses & Certificates</h2>
 
-                    <CareerEntry work={false} company='MIT OpenCourseWare'
-                    locale='online' period='2022-07 / 2022-09'
-                    description='MIT 6.0002 Introduction to Computational Thinking and Data Science, Fall 2016.
-                    Instructor Dr. John Guttag. Offered freely through Youtube.'/>
+                    <CareerEntry work={true} link='http://ocw.mit.edu/6-0002F16' company='MIT OpenCourseWare'
+                    locale='Online' period='2022-07 / 2022-09' role='MIT 6.0002 Introduction to Computational
+                    Thinking and Data Science, Fall 2016.' description='Offered freely through Youtube.'/>
+
+                </div>
+
+                <div className='career-text-card'>
+                    <h2 className='section-title'>Books</h2>
+
+                    <CareerEntry work={true} link='https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646'
+                    company='Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build
+                    Intelligent Systems' period='2022-07 / Present' role='Aurélien Géron.'/>
 
                 </div>
             </div>

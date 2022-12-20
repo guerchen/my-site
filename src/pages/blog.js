@@ -7,6 +7,13 @@ function Blog() {
     return (
         <div className='content'>
             <div className='blog-gray-card'>
+                <Post title='A lil chat with Chat-GPT' date='2022-12-19' content="After being recommended by Youtube's
+                algorithm a video about Chat-GPT and also listening about it in the podcast Osim Tochna, I've decided to give
+                OpenAI's Chat-GPT a try. I am throughly impressed. I asked it questions on how to implement
+                lazy execution using React and how to create a simple CRUD API using FastAPI. The answers were spot on!
+                It even answered my queries in Portuguese and Hebrew, albeit making some little mistakes.
+                Fascinating! I hope to one day be able to collaborate in a project such as this. That's what draws me to AI." />
+
                 <Post title='Review of In Search of Identity: an Autobiography, by Anwar el-Sadat' date='2022-12-08' 
                 content="Although this autobiography felt self promotional at times, it was a book that I enjoyed reading untill the
                 end. First of all, it gave me a glimpse into Egypt's daily life under the British regime, and by extent,

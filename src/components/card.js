@@ -12,8 +12,9 @@ function Card() {
             <h1 className='MyName'>Ariel Guerchenzon</h1>
                 <div className='ShortDescr'>
                     <p> Hello dear visitor! </p>
-                    <p> I'm a Mechanical Engineer who works with software and lives in São Paulo. </p>
-                    <p> I'm interested in learning Data Science, Software Engineering, running, playing classical guitar, and reading books. </p>
+                    <p> I'm a mechanical engineer who works with software and lives in São Paulo. </p>
+                    <p> I'm interested in learning data science, software engineering, entrepreneurship,
+                        running, playing classical guitar, and reading books. </p>
                     <p> Be welcome to take a stroll around my website.</p>
                 </div>   
             </div>
