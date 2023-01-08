@@ -25,6 +25,16 @@ function Career() {
                     electrical motors, and design jigs and devices for measurement and calibration of different parts
                     of the robots. The devices I designed were manufactured and are being used by the company.'/>
 
+                    <hr />
+
+                    <CareerEntry work={true} link='https://www.livance.com.br/' company='Livance' role='Summer Intern'
+                    locale='São Paulo, Brazil' period='2018-12 / 2019-02'
+                    description='Worked as a Full-Stack Web Developer. My main project was upgrading and redesigning
+                    the self-check-in and payment station that customers interact with when arriving and leaving the
+                    medical offices. Used the Vue.js framework (includes JavaScript, HTML, and CSS) for the Front-end
+                    and ASP.NET Core for the Back-end (uses C#).'/>
+
+
                 </div>
                 <div className='career-text-card'>
                     <h2 className='section-title'>Education</h2>

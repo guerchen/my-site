@@ -1,13 +1,28 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
 import './blog.css';
 import {Post} from '../components/blog_post'
 import { Footer } from '../components/footer'
 
 function Blog() {
+    const url = 'https://api-jpezawplgq-rj.a.run.app/posts'
+
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        axios.get(url).then((response) => {
+            setPosts(response.data.posts)
+        })
+    }, [])
+
+    console.log(posts)
+
     return (
         <div className='content'>
             <div className='blog-gray-card'>
-                <Post title='A lil chat with Chat-GPT' date='2022-12-19' content="After being recommended by Youtube's
+                {posts.length > 0 ? posts.map((post, index) => <Post key={index} title={post.title} date={post.date} content={post.content}/>) : 
+                <div>
+                <Post title="A lil' chat with Chat-GPT" date='2022-12-19' content="After being recommended by Youtube's
                 algorithm a video about Chat-GPT and also listening about it in the podcast Osim Tochna, I've decided to give
                 OpenAI's Chat-GPT a try. I am throughly impressed. I asked it questions on how to implement
                 lazy execution using React and how to create a simple CRUD API using FastAPI. The answers were spot on!
@@ -38,7 +53,7 @@ function Blog() {
                 <Post title='Hello world!' date='2022-12-01' content="I'm just very happy to have this space
                 to share my thoughts and feelings. I plan on sometime creating an API operated MongoDB for updating
                 this little blog without having to deploy. Of course it would just be easier to use twitter,
-                but I sure wouldn't learn as much." />
+                but I sure wouldn't learn as much." /> </div>}
             </div>
             <Footer />
         </div>
