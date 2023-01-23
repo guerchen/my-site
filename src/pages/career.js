@@ -55,9 +55,14 @@ function Career() {
                 <div className='career-text-card'>
                     <h2 className='section-title'>Courses & Certificates</h2>
 
+                    <CareerEntry work={true} link='https://drive.google.com/file/d/1hEtcP8Klvt7WDbHX2OxHhgT5HPdV7VGL/view?usp=sharing'
+                    company='Databricks'
+                    locale='Online' period='2023-01 / 2023-01' role='Apache Spark Programming with Databricks'
+                    description=''/>
+
                     <CareerEntry work={true} link='http://ocw.mit.edu/6-0002F16' company='MIT OpenCourseWare'
                     locale='Online' period='2022-07 / 2022-09' role='MIT 6.0002 Introduction to Computational
-                    Thinking and Data Science, Fall 2016.' description='Offered freely through Youtube.'/>
+                    Thinking and Data Science, Fall 2016.' description=''/>
 
                 </div>
 
@@ -66,7 +71,7 @@ function Career() {
 
                     <CareerEntry work={true} link='https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646'
                     company='Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build
-                    Intelligent Systems' period='2022-07 / Present' role='Aurélien Géron.'/>
+                    Intelligent Systems' period='2022-07 / 2023-01' role='Aurélien Géron.'/>
 
                 </div>
             </div>
