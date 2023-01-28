@@ -55,6 +55,11 @@ function Career() {
                 <div className='career-text-card'>
                     <h2 className='section-title'>Courses & Certificates</h2>
 
+                    <CareerEntry work={true} link='https://drive.google.com/file/d/1l8_FlcbpCGC7zQjv38U5-JcdOri3B6jF/view?usp=sharing'
+                    company='Databricks'
+                    locale='Online' period='2023-01 / 2023-01' role='Introduction to Apache Spark Architecture'
+                    description=''/>
+
                     <CareerEntry work={true} link='https://drive.google.com/file/d/1hEtcP8Klvt7WDbHX2OxHhgT5HPdV7VGL/view?usp=sharing'
                     company='Databricks'
                     locale='Online' period='2023-01 / 2023-01' role='Apache Spark Programming with Databricks'
