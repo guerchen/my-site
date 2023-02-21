@@ -14,7 +14,7 @@ function Card() {
                     <p> Hello dear visitor! </p>
                     <p> I'm a mechanical engineer who works with software and lives in São Paulo. </p>
                     <p> I'm interested in learning data science, software engineering, entrepreneurship,
-                        running, playing classical guitar, and reading books. </p>
+                        hiking, running, playing classical guitar, and reading books. </p>
                     <p> Be welcome to take a stroll around my website.</p>
                 </div>   
             </div>
