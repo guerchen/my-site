@@ -7,10 +7,12 @@ function Projects() {
     return (
         <div className='content'>
             <div className='projects-card'>
-                <Project name='ultra-ctrl-f' date='2023-01 / Present' description="ultra-ctrl-f is a personal side project that arised from my own struggle to 
-                find pictures of myself inside a website with pictures from a sporting event. I thought 'Wouldn't it be great if I could look up pictures using
-                face similarity?' This project is my attempt to do that, using a chrome extension that communicates with a facial landmark detector neural network backend."
-                link='https://github.com/guerchen/ultra-ctrl-f-back' />
+                <Project name='Skin Cancer Medical Assistant App' date='2023-03 / 2023-04' description="This was my first attempt at mobile development and also an
+                interesting project in Computer Vision. With the goal of helping a couple of medical students with a startup idea of creating an AI powered Skin Cancer
+                detection app, the app connects to a FastAPI backend that serves a model cloned from Hugging Face that was trained on a dataset of skin lesions. In the end,
+                this project was abandoned after talking to a specialist researcher on the topic that claimed there is no big enough dataset currently to build a
+                production worthy model."
+                link='https://github.com/guerchen/sc-rn-app' />
 
                 <Project name='This very site' date='2022-12 / Forever' description='My first personal website, made using React.js and deployed to github pages.
                 I Learned a lot about reusable React.js components, github pages deployment, and css styling. My previous experience with
