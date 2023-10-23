@@ -10,12 +10,19 @@ function Career() {
                 <div className='career-text-card'> 
                     <h2 className='section-title'>Work</h2>
 
+                    <CareerEntry work={true} link='https://www.idwall.co' company='idwall' role='Data Scientist'
+                    locale='São Paulo, Brazil' period='2023-08 / Present'
+                    description='As a Data Scientist, my responsabilities include producing varied studies, transforming data with ETL pipelines,
+                    and creating models based on transformed data. The main tools used are Databricks, SQL, PySpark, Apache Airflow, and DBT.'/>
+
+                    <hr />
+                    
                     <CareerEntry work={true} link='https://www.idwall.co' company='idwall' role='Solutions Consultant'
-                    locale='São Paulo, Brazil' period='2021-04 / Present'
-                    description='Responsible for software architecture definition and guiding tech teams through API and SDK integrations, but also
+                    locale='São Paulo, Brazil' period='2021-04 / 2023-08'
+                    description="Responsible for software architecture definition and guiding client's tech teams through API and SDK integrations, but also
                     being able to present technical concepts non-technical stakeholders. Quickly became technical reference in
-                    the team. Seeking a career change to Data Science, I’ve found many business problems that involve data modeling and optimization.
-                    Besides, also developed an intrapreneurship project that awarded me a business trip to Estonia.'/>
+                    the team. I’ve developed solutions to many business problems that involve sripting, data modeling and optimization.
+                    Besides, also developed an intrapreneurship project that awarded me a business trip to Estonia."/>
 
                     <hr />
 
