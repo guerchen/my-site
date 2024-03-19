@@ -23,6 +23,8 @@ function Blog() {
             {
                 page: location.pathname,
                 date: (new Date()).toISOString(),
+                platform: navigator.oscpu,
+                user_agent: navigator.userAgent,
                 ...response
             }
         )
