@@ -1,9 +1,32 @@
 import React from 'react';
 import './projects.css';
 import { Project } from '../components/project'; 
-import { Footer } from '../components/footer'
+import { Footer } from '../components/footer';
+import axios from 'axios';
+import { useLocation } from "react-router-dom";
+import fetchJsonp from "fetch-jsonp";
 
 function Projects() {
+    fetchJsonp('http://ipinfo.io/json')
+    .then((resp) => {
+        return resp.json()
+    }).then((resp) => {
+        register_visit(resp)
+    })
+
+    const location = useLocation();
+    const baseUrl = 'https://api-jpezawplgq-rj.a.run.app';
+    function register_visit(response) {
+        axios.post(
+            `${baseUrl}/visits`,
+            {
+                page: location.pathname,
+                date: (new Date()).toISOString(),
+                ...response
+            }
+        )
+    }
+
     return (
         <div className='content'>
             <div className='projects-card'>

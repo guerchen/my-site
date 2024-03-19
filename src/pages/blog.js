@@ -1,21 +1,40 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import './blog.css';
-import {Post} from '../components/blog_post'
-import { Footer } from '../components/footer'
+import { Post } from '../components/blog_post';
+import { Footer } from '../components/footer';
+import { useLocation } from "react-router-dom";
+import fetchJsonp from "fetch-jsonp";
 
 function Blog() {
-    const url = 'https://api-jpezawplgq-rj.a.run.app/posts'
+    const baseUrl = 'https://api-jpezawplgq-rj.a.run.app';
+
+    fetchJsonp('http://ipinfo.io/json')
+    .then((resp) => {
+        return resp.json()
+    }).then((resp) => {
+        register_visit(resp)
+    })
+
+    const location = useLocation();
+    function register_visit(response) {
+        axios.post(
+            `${baseUrl}/visits`,
+            {
+                page: location.pathname,
+                date: (new Date()).toISOString(),
+                ...response
+            }
+        )
+    }
 
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        axios.get(url).then((response) => {
+        axios.get(`${baseUrl}/posts`).then((response) => {
             setPosts(response.data.posts)
         })
     }, [])
-
-    console.log(posts)
 
     return (
         <div className='content'>

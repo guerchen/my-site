@@ -3,7 +3,6 @@ import './notfound.css';
 import { Footer } from '../components/footer'
 
 function NotFound() {
-
     return (
         <div className='content'>
             <div className='NotFoundDiv'>

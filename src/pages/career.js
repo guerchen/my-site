@@ -1,9 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './career.css';
-import { Footer } from '../components/footer'
-import { CareerEntry } from '../components/career_entry'
+import { Footer } from '../components/footer';
+import { CareerEntry } from '../components/career_entry';
+import axios from 'axios';
+import { useLocation } from "react-router-dom";
+import fetchJsonp from "fetch-jsonp";
+
 
 function Career() {
+    fetchJsonp('http://ipinfo.io/json')
+    .then((resp) => {
+        return resp.json()
+    }).then((resp) => {
+        register_visit(resp)
+    })
+
+    const location = useLocation();
+    const baseUrl = 'https://api-jpezawplgq-rj.a.run.app';
+    function register_visit(response) {
+        axios.post(
+            `${baseUrl}/visits`,
+            {
+                page: location.pathname,
+                date: (new Date()).toISOString(),
+                ...response
+            }
+        )
+    }
+
     return (
         <div className='content'>
             <div className='career-card'>
@@ -88,7 +112,10 @@ function Career() {
 
                     <CareerEntry work={true} link='https://www.amazon.com.br/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646'
                     company='Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build
-                    Intelligent Systems' period='2022-07 / 2023-01' role='Aurélien Géron.'/>
+                    Intelligent Systems' period='2022-07 / 2023-01' role='Aurélien Géron'/>
+
+                    <CareerEntry work={true} link='https://www.amazon.com.br/Practical-Statistics-Scientists-Peter-Bruce/dp/1491952962'
+                    company='Practical Statistics for Data Scientists' period='2023-07 / 2024-02' role='Peter Bruce, Andrew Bruce'/>
 
                 </div>
             </div>
