@@ -9,7 +9,7 @@ import fetchJsonp from "fetch-jsonp";
 function Blog() {
     const baseUrl = 'https://api-jpezawplgq-rj.a.run.app';
 
-    fetchJsonp('http://ipinfo.io/json')
+    fetchJsonp('https://ipinfo.io/json')
     .then((resp) => {
         return resp.json()
     }).then((resp) => {

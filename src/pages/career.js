@@ -8,7 +8,7 @@ import fetchJsonp from "fetch-jsonp";
 
 
 function Career() {
-    fetchJsonp('http://ipinfo.io/json')
+    fetchJsonp('https://ipinfo.io/json')
     .then((resp) => {
         return resp.json()
     }).then((resp) => {
@@ -23,6 +23,8 @@ function Career() {
             {
                 page: location.pathname,
                 date: (new Date()).toISOString(),
+                platform: navigator.oscpu,
+                user_agent: navigator.userAgent,
                 ...response
             }
         )

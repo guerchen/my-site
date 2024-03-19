@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 import fetchJsonp from "fetch-jsonp";
 
 function About() {
-    fetchJsonp('http://ipinfo.io/json')
+    fetchJsonp('https://ipinfo.io/json')
     .then((resp) => {
         return resp.json()
     }).then((resp) => {
