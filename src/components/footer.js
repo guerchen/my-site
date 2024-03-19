@@ -1,11 +1,11 @@
 import React from 'react';
 import './footer.css';
-import linkedin from '../images/linkedIn_logo.png'
-import github from '../images/github_logo.png'
-import kaggle from '../images/kaggle_logo.webp'
+import linkedin from '../images/linkedIn_logo.png';
+import github from '../images/github_logo.png';
+import kaggle from '../images/kaggle_logo.webp';
 
 function Footer() {
-    const lastUpdated = '2023-10-23'
+    const lastUpdated = '2024-03-18'
 
     return (
         <div className='Footer'>
