@@ -9,13 +9,6 @@ import fetchJsonp from "fetch-jsonp";
 function Blog() {
     const baseUrl = 'https://api-jpezawplgq-rj.a.run.app';
 
-    fetchJsonp('https://ipinfo.io/json')
-    .then((resp) => {
-        return resp.json()
-    }).then((resp) => {
-        register_visit(resp)
-    })
-
     const location = useLocation();
     function register_visit(response) {
         axios.post(
@@ -35,6 +28,12 @@ function Blog() {
     useEffect(() => {
         axios.get(`${baseUrl}/posts`).then((response) => {
             setPosts(response.data.posts)
+            fetchJsonp('https://ipinfo.io/json')
+            .then((resp) => {
+                return resp.json()
+            }).then((resp) => {
+                register_visit(resp)
+            })
         })
     }, [])
 
