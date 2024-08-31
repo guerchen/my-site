@@ -119,6 +119,9 @@ function Career() {
                     <CareerEntry work={true} link='https://www.amazon.com.br/Practical-Statistics-Scientists-Peter-Bruce/dp/1491952962'
                     company='Practical Statistics for Data Scientists' period='2023-07 / 2024-02' role='Peter Bruce, Andrew Bruce'/>
 
+                    <CareerEntry work={true} link='https://pythonfluente.com/'
+                    company='Fluent Python' period='2023-12 / 2024-04' role=' Luciano Ramalho'/>
+
                 </div>
             </div>
             <Footer />
