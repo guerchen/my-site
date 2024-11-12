@@ -75,7 +75,7 @@ function Career() {
                     <CareerEntry work={false} company='Universidade de São Paulo'
                     locale='São Paulo, Brazil' period='2017-03 / 2022-09'
                     description='Mechanical Engineering degree with an emphasys on Renewable Energies at
-                    the Polytechnic School of Enginnering.'/>
+                    the Polytechnic School of Engineering.'/>
 
                     <hr />
 
@@ -121,6 +121,9 @@ function Career() {
 
                     <CareerEntry work={true} link='https://pythonfluente.com/'
                     company='Fluent Python' period='2023-12 / 2024-04' role=' Luciano Ramalho'/>
+
+                    <CareerEntry work={true} link='https://www.oreilly.com/library/view/deep-learning-with/9781617296864/'
+                    company='Deep Learning with Python' period='2024-03 / 2024-11' role='François Chollet'/>
 
                 </div>
             </div>
