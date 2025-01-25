@@ -36,8 +36,15 @@ function Career() {
                 <div className='career-text-card'> 
                     <h2 className='section-title'>Work</h2>
 
+                    <CareerEntry work={true} link='https://www.bcg.com/x' company='BCG X' role='Data Scientist'
+                    locale='São Paulo, Brazil' period='2025-01 / Present'
+                    description="Data scientist consultant responsible for implementing advanced solutions leveraging clients' data to solve real
+                    business problems."/>
+
+                    <hr />
+                    
                     <CareerEntry work={true} link='https://www.idwall.co' company='idwall' role='Data Scientist'
-                    locale='São Paulo, Brazil' period='2023-08 / Present'
+                    locale='São Paulo, Brazil' period='2023-08 / 2024-12'
                     description='As a Data Scientist, my responsabilities include producing varied studies, transforming data with ETL pipelines,
                     and creating models based on transformed data. The main tools used are Databricks, SQL, PySpark, Apache Airflow, and DBT.'/>
 
